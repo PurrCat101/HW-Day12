@@ -1,0 +1,71 @@
+.header {
+    background-color: black;
+    text-align: center;
+}   
+
+.logo {
+    display: block;
+    margin:0;
+}
+
+.navbar {
+    background-color: #CCCCCC;
+    font-size: 15px;
+    font-family: Arial;
+    text-align: center;
+    padding: 8px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    gap: 10px;
+}
+
+.item {
+    border: 1px solid gray;
+    padding: 20px;
+    margin: 5px;
+    text-align: center;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+.price {
+    margin: 20px;
+    font-size: larger;
+}
+
+.btn-buy {
+    color: white;
+    background-color: rgb(43, 118, 216);
+    width: 80px;
+    height: 40px;
+    border: 10px;
+}
+
+.btn-buy:hover{
+    background-color: #0f68a7;
+}
+
+.btn-detail {
+    color: rgb(0, 0, 0);
+    width: 80px;
+    height: 40px;
+    border: 1px solid black;
+}
+
+.btn-detail:hover{
+    background-color: #0f68a7;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: Arial;
+}
+
+a {
+    color: black;
+}
